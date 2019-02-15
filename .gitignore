@@ -1,0 +1,8 @@
+.vs
+Data
+Misc
+Build/*.obj
+Build/*.pdb
+Build/*.ilk
+Build/*.exe
+!Build/african_head.obj
