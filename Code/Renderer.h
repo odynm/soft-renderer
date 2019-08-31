@@ -12,6 +12,7 @@ struct OffscreenBuffer
 };
 
 void* Alloc(int size);
+void* CleanAlloc(int size);
 void Release(void* address);
 void Print(char* buffer);
 void UpdateAndRender(OffscreenBuffer* buffer);

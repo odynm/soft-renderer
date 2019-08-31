@@ -59,6 +59,12 @@ Alloc(int size)
     return malloc(size);
 }
 
+void* 
+CleanAlloc(int size)
+{
+    return calloc(size, 1);
+}
+
 void
 Release(void* address)
 {
